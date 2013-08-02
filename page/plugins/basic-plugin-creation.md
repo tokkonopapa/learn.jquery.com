@@ -3,7 +3,7 @@ title   : プラグインの基本的な作り方
 level:        intermediate
 source: http://jqfundamentals.com/legacy
 attribution:
-  - jQuery Fundamentals
+  - プラグインの基礎
 ---
 
 <!--
@@ -284,18 +284,18 @@ This handy plugin goes through all anchors in the collection and appends the `hr
 
 <!--
 ```
-<!-- Before plugin is called: -->
+&lt;!-- Before plugin is called: --&gt;
 <a href="page.html">Foo</a>
 
-<!-- After plugin is called: -->
+&lt;!-- After plugin is called: --&gt;
 <a href="page.html">Foo (page.html)</a>
 ```
 -->
 ```
-<!-- プラグイン呼び出し前 -->
+&lt;!-- プラグイン呼び出し前 --&gt;
 <a href="page.html">Foo</a>
 
-<!-- プラグイン呼び出し後 -->
+&lt;!-- プラグイン呼び出し後 --&gt;
 <a href="page.html">Foo (page.html)</a>
 ```
 
