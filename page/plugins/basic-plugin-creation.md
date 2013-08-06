@@ -328,18 +328,18 @@ This handy plugin goes through all anchors in the collection and appends the `hr
 
 <!--
 ```
-&lt;!-- Before plugin is called: --&gt;
+<!-- Before plugin is called: -- >
 <a href="page.html">Foo</a>
 
-&lt;!-- After plugin is called: --&gt;
+<!-- After plugin is called: -- >
 <a href="page.html">Foo (page.html)</a>
 ```
 -->
 ```
-&lt;!-- プラグイン呼び出し前 --&gt;
+<!-- プラグイン呼び出し前 -->
 <a href="page.html">Foo</a>
 
-&lt;!-- プラグイン呼び出し後 --&gt;
+<!-- プラグイン呼び出し後 -->
 <a href="page.html">Foo (page.html)</a>
 ```
 
