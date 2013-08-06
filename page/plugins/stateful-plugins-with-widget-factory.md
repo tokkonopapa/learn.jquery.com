@@ -513,6 +513,7 @@ $.widget( "nmk.progressbar", {
 });
 ```
 -->
+```
 $.widget( "nmk.progressbar", {
 
 	options: {
